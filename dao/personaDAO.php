@@ -57,6 +57,7 @@ class PersonaDAO {
         $persona = new Persona();
         Mapeador::mapearPersona($persona, $filas);
         return $persona;
+        
     }
 
     public function insertarPersona(Persona $persona) {
